@@ -3,7 +3,8 @@
 ✅ **Multiplayer Inventory**  
 - ✅ **Inventory Item Pickup**  
 - ❌ **Inventory Item Drop**  
-- ❌ **Inventory Item Drag**  
+- ❌ **Inventory Item Drag**
+- ❌ **Inventory Item Equipment**  
 
 ❌ **Multiplayer Gathering Resource**  
 - ❌ Gather Wood  
