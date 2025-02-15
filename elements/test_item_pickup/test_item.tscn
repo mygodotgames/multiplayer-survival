@@ -1,0 +1,19 @@
+[gd_scene load_steps=4 format=3 uid="uid://lhn5dbmnkmp5"]
+
+[ext_resource type="Script" path="res://elements/test_item_pickup/test_item.gd" id="1_0w7nl"]
+[ext_resource type="Resource" uid="uid://mpnkm0pf3e54" path="res://data/items/test_item.tres" id="2_4ngyf"]
+
+[sub_resource type="SphereShape3D" id="SphereShape3D_5yave"]
+radius = 0.609683
+
+[node name="TestItem" type="Node3D"]
+script = ExtResource("1_0w7nl")
+item = ExtResource("2_4ngyf")
+
+[node name="Area3D" type="Area3D" parent="."]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Area3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.383391, 0)
+shape = SubResource("SphereShape3D_5yave")
+
+[connection signal="body_entered" from="Area3D" to="." method="_on_area_3d_body_entered"]

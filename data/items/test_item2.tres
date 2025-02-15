@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="Item" load_steps=4 format=3 uid="uid://b17dky7u2lki6"]
+
+[ext_resource type="Texture2D" uid="uid://xv770c0gawdb" path="res://assets/book15.png" id="1_ok0c4"]
+[ext_resource type="PackedScene" uid="uid://2p55ftadiwfx" path="res://assets/dagger.fbx" id="2_ldn52"]
+[ext_resource type="Script" path="res://schema/item.gd" id="3_hbhre"]
+
+[resource]
+script = ExtResource("3_hbhre")
+name = "Book 2"
+scene = ExtResource("2_ldn52")
+icon = ExtResource("1_ok0c4")

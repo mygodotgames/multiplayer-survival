@@ -1,0 +1,13 @@
+[gd_scene load_steps=2 format=3 uid="uid://osd0djnoms2f"]
+
+[ext_resource type="Script" path="res://user_interface/inventory/item_slot.gd" id="1_rot7n"]
+
+[node name="ItemSlot" type="PanelContainer"]
+script = ExtResource("1_rot7n")
+
+[node name="TextureRect" type="TextureRect" parent="."]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(75, 75)
+layout_mode = 2
+expand_mode = 1
+stretch_mode = 5
