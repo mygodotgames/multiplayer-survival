@@ -1,9 +1,9 @@
 ### Multiplayer Survival Game vnull 📌 To-Do List  
 
 ✅ **Multiplayer Inventory**  
--✅ **Inventory Item Pickup**  
--❌ **Inventory Item Drop**  
--❌ **Inventory Item Drag**  
+- ✅ **Inventory Item Pickup**  
+- ❌ **Inventory Item Drop**  
+- ❌ **Inventory Item Drag**  
 
 ❌ **Multiplayer Gathering Resource**  
 - ❌ Gather Wood  
